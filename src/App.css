@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+body {
+  font-family: "Manrope", serif;
+  background-color: #c0bdbd;
+}
+
+.App {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 100vh;
+    overflow-y: hidden; */
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: medium;
+}
+
+.togglebtn {
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleImage {
+  height: 22px;
+  width: 22px;
+}
+
+p {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.weak {
+  color: red;
+}
+
+.moderate {
+  color: orange;
+}
+
+.strong {
+  color: green;
+}
